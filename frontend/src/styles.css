@@ -1,0 +1,5 @@
+body { font-family: Inter, system-ui, Arial; background:#f6f7fb; color:#111;}
+table { background:#fff; border-radius:4px; overflow:hidden; }
+thead th { padding:12px; border-bottom:1px solid #eee; }
+tbody td { padding:12px; border-bottom:1px solid #f1f1f1; }
+.pagination { display:flex; gap:8px; list-style:none; padding:8px; }

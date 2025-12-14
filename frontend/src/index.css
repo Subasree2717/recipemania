@@ -1,0 +1,59 @@
+:root {
+  --bg-gradient: linear-gradient(135deg, #eef2ff, #f8fafc);
+  --card-bg: #ffffff;
+  --primary: #6366f1;
+  --secondary: #ecfeff;
+  --border: #e5e7eb;
+  --text-main: #111827;
+  --text-muted: #6b7280;
+  --accent: #22c55e;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Arial, sans-serif;
+
+  /* 🍫 Elegant brown gradient */
+  background: linear-gradient(
+    135deg,
+    #fff7ed 0%,   /* cream */
+    #f3e8d2 30%,  /* light beige */
+    #e6ccb2 60%,  /* soft brown */
+    #d5b895 100%
+    );
+
+  min-height: 100vh;
+  color: #3f2e2e;
+}
+
+
+button {
+  background: var(--primary);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+input, select {
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid var(--border);
+  font-size: 14px;
+  background: #fff;
+}
+
+input:focus, select:focus {
+  outline: none;
+  border-color: var(--primary);
+}
